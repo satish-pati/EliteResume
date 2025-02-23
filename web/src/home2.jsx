@@ -4,19 +4,24 @@ import { useUser } from "./login/usercontext";
 const Navbar = () => {
     const navigate = useNavigate();
     const { logout } = useUser(); // Access logout function
+        const featuresRef = useRef(null);
+
 
     const handleLogout = () => {
         logout(); // Clear user state
         localStorage.removeItem("token"); // Remove stored token
         navigate("/"); // Redirect to login page
     };
-
+const handleScrollToFeatures = (event) => {
+        event.preventDefault();
+        document.getElementById("features-section").scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <nav className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-md fixed top-0 left-0 w-full z-50">
             <h1 className="text-2xl font-bold">Job Search Hub</h1>
             <div className="flex justify-end items-center space-x-8 ml-auto mr-6">
-                <a href="/home2" className="text-lg font-semibold hover:text-gray-400">Home</a>
-                <a href="/features" className="text-lg font-semibold hover:text-gray-400">Features</a>
+                <a href="/home2" onClick={(e) => { e.preventDefault(); navigate("/home2"); }}  className="text-lg font-semibold hover:text-gray-400">Home</a>
+                <a href="/features" onClick={handleScrollToFeatures} className="text-lg font-semibold hover:text-gray-400">Features</a>
                 <a href="/about" className="text-lg font-semibold hover:text-gray-400">About Us</a>
                 <a href="/contact" className="text-lg font-semibold hover:text-gray-400">Contact</a>
                 <a href="/profile" className="text-lg font-semibold hover:text-gray-400">Profile</a>
