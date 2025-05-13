@@ -60,7 +60,7 @@
 ## ⚙️ Installation
 
 1. **Clone the Repository**
-   ```bash
+    ```bash
    git clone https://github.com/satish-pati/EliteResume
    cd eliteresumeai
    ```
@@ -71,11 +71,7 @@
    npm start
    ```
 3. **Flask Server Setup**
-   - Navigate to the AI services directory (e.g., `ai-services/`):
-     ```bash
-     cd ai-services
-     ```
-
+   - Navigate to the home directory :
    - Create and activate a virtual environment:
      ```bash
      # For Linux/macOS
