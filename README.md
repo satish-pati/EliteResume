@@ -71,10 +71,36 @@
    npm start
    ```
 3. **Flask Server Setup**
+   - Navigate to the AI services directory (e.g., `ai-services/`):
+     ```bash
+     cd ai-services
+     ```
+
+   - Create and activate a virtual environment:
+     ```bash
+     # For Linux/macOS
+     python3 -m venv venv
+     source venv/bin/activate
+
+     # For Windows
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+   - Install required dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   - Run the Flask server:
+     ```bash
+     python app.py
+     ```
+5. ***Backend Server(MongoDB Setup)**
    ```bash
-   ```
-4. ***Backend Server(MongoDB Setup)**
-   ```bash
+   cd backend
+   npm install
+   node server.js
    ```
 
 
