@@ -84,19 +84,19 @@
    ```
 
    - Install required dependencies:
-     ```bash
+   ```bash
      pip install -r requirements.txt
-     ```
+   ```
 
    - Run the Flask server:
-     ```bash
+   ```bash
      python app.py
-     ```
+   ```
 5. **Backend Server(MongoDB Setup)**
-     ```bash
+   ```bash
    cd backend
    npm install
    node server.js
-     ```
+   ```
 
 
