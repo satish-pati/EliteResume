@@ -6,24 +6,36 @@
 
 ## 🌟 Key Features
 
+## 🌟 Key Features
+
 - **AI-Driven Resume Optimization**
   - Enhances resumes using NLP and Deep Learning techniques.
-  - Tailored suggestions based on job descriptions and industry standards.
+  - Provides keyword suggestions and formatting improvements tailored to job descriptions and industry standards.
 
 - **ATS (Applicant Tracking System) Analysis**
   - Ensures resumes are parsed correctly by modern hiring software.
-  - Provides feedback to improve ATS compatibility.
+  - Offers actionable feedback and assigns an **ATS compatibility score**.
+
+- **Resume Builder with Templates**
+  - Allows users to build professional resumes from scratch using modern, customizable templates.
+  - Template-driven interface for selecting layouts, sections, and styles.
 
 - **Generative Cover Letter with RAG**
-  - Creates custom cover letters using Retrieval-Augmented Generation (RAG).
-  - Embedding-based retrieval using transformer models and vector similarity.
+  - Creates personalized cover letters using Retrieval-Augmented Generation (RAG).
+  - Embedding-based retrieval with transformer models and FAISS vector similarity search.
 
 - **Mock Interview & Question Generation**
-  - Simulates realistic interview experiences.
-  - Uses generative models to create domain-specific and role-specific questions.
+  - Simulates realistic interview sessions based on the user’s uploaded resume.
+  - Generates role-specific and industry-specific questions using generative AI.
 
-- **AI Career Coach**
-  - Offers personalized guidance and job search strategies using Langchain-powered logic.
+- **AI Career Coach (Interactive)**
+  - Users can **upload their resume** and interact with an AI-powered coach via chatbot.
+  - Ask questions like “How can I improve my resume for data science roles?” or “Is this resume good for a software engineering internship?”
+  - Uses Langchain to connect uploaded content with LLM-driven feedback generation.
+
+
+
+
 
 ---
 
