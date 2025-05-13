@@ -64,10 +64,10 @@
    git clone https://github.com/satish-pati/EliteResume
    cd eliteresumeai
    ```
-2.**Frontend Setup**
-```bash
+2. **Frontend Setup**
+   ```bash
    cd web
    npm install
    npm start
-```
+   ```
 
