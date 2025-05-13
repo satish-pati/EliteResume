@@ -70,4 +70,11 @@
    npm install
    npm start
    ```
+3. **Flask Server Setup**
+   ```bash
+   ```
+4. ***Backend Server(MongoDB Setup)**
+   ```bash
+   ```
+
 
