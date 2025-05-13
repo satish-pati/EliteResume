@@ -4,7 +4,6 @@
 
 ---
 
-## 🌟 Key Features
 
 ## 🌟 Key Features
 
