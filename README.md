@@ -73,7 +73,7 @@
 3. **Flask Server Setup**
    - Navigate to the home directory :
    - Create and activate a virtual environment:
-     ```bash
+   ```bash
      # For Linux/macOS
      python3 -m venv venv
      source venv/bin/activate
@@ -81,7 +81,7 @@
      # For Windows
      python -m venv venv
      venv\Scripts\activate
-     ```
+   ```
 
    - Install required dependencies:
      ```bash
