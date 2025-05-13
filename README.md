@@ -92,11 +92,11 @@
      ```bash
      python app.py
      ```
-5. ***Backend Server(MongoDB Setup)**
-   ```bash
+5. **Backend Server(MongoDB Setup)**
+     ```bash
    cd backend
    npm install
    node server.js
-   ```
+     ```
 
 
