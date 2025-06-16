@@ -6,34 +6,34 @@ import { useUser } from "./login/usercontext";
         
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-10">
+    <footer id="about" className="bg-gray-800 text-white py-6 mt-10">
       <div className="container mx-auto px-6">
         {/* First Line */}
         <div className="flex flex-col md:flex-row justify-between items-center  mb-4">
-          <div className="text-center md:text-left mr-20  ml-16">
-            <h1 className="text-xl font-bold">Sakthi Saadhak</h1>
+          <div className="text-center md:text-left ">
+            <h1 className="text-xl font-bold">Elite Resume</h1>
             <p className="text-sm mt-2">
-              Let's protect Earth and save on bills! Small changes, big impact.
+              Empower your career with EliteResume –smart design, strong impact
             </p>
           </div>
           <div className="ml-16 px-16">
           <a
             href="#about"
-            className="text-lg font-semibold hover:text-gray-400 mr-8"
+            className="text-lg font-semibold hover:text-gray-400 ml-20 px-10"
           >
             About Us
           </a>
           </div>
-          <div className="text-center md:text-right md:ml-auto mr-16">
+          <div className="text-center md:text-right md:ml-auto ">
             <a
               href="#contact"
-              className="text-lg font-semibold hover:text-gray-400"
+              className="text-lg font-semibold hover:text-gray-400 mr-10"
             >
               Contact Us
             </a>
             <ul className="text-sm mt-2">
-              <li>Email: sakthisaadhak@gmail.com</li>
-              <li>Phone: +91 7780796993</li>
+              <li>Email: EliteResume@gmail.com</li>
+              <li>Phone: +91 6281395878</li>
               <li>Location: IIT Tirupati, India</li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Third Line - Copyright */}
         <div className="mt-8 text-center mt-4 text-sm">
-          © 2025 Sakthi Saadhak. All rights reserved.
+          © 2025 Elite Resume. All rights reserved.
         </div>
       </div>
     </footer>
@@ -119,12 +119,12 @@ const Navbar = () => {
 
     return (
         <nav className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-md fixed top-0 left-0 w-full z-50">
-            <h1 className="text-2xl font-bold">Job Search Hub</h1>
+            <h1 className="text-2xl font-bold">EliteResume</h1>
             <div className="flex justify-end items-center space-x-8 ml-auto mr-6">
                 <a href="/home2" className="text-lg font-semibold hover:text-gray-400">Home</a>
-                <a href="/features" className="text-lg font-semibold hover:text-gray-400">Features</a>
-                <a href="/about" className="text-lg font-semibold hover:text-gray-400">About Us</a>
-                <a href="/contact" className="text-lg font-semibold hover:text-gray-400">Contact</a>
+                <a href="#features" className="text-lg font-semibold hover:text-gray-400">Features</a>
+                <a href="#about" className="text-lg font-semibold hover:text-gray-400">About Us</a>
+                <a href="#about" className="text-lg font-semibold hover:text-gray-400">Contact</a>
                 <a href="/profile" className="text-lg font-semibold hover:text-gray-400">Profile</a>
 
                 <button className="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center hover:bg-red-600" title="Logout"
@@ -190,7 +190,7 @@ const JobSearchFeatures = () => {
         </div>
   
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+        <div id="features" className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
           {features.map((feature, index) => (
             <FeatureCard key={index} feature={feature} />
           ))}
