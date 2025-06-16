@@ -13,7 +13,7 @@ const CoverLetter = () => {
 
   const handleGenerate = async () => {
     try {
-      const response = await axios.post('https://res-2-zzry.onrender.com/generate_cover_letter', {
+      const response = await axios.post('https://res-1-7uph.onrender.com/upload/generate_cover_letter', {
         job_role: jobRole,
         job_description: jobDescription,
         company_name: companyName, length,
