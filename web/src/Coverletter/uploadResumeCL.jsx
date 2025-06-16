@@ -22,7 +22,7 @@ const UploadResumeCL= () => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await axios.post("https://res-1-7uph.onrender.com/upload", formData, {
+      const response = await axios.post("https://res-2-zzry.onrender.com/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
