@@ -55,7 +55,7 @@ const VantaPage = () => {
         style={{ marginLeft: "50%" }}
       >
         {/* Bold Heading */}
-        <h1 className="text-4xl font-extrabold mb-6 text-white">Welcome to Job Help</h1>
+        <h1 className="text-4xl font-extrabold mb-6 text-white">Welcome to EliteResume AI</h1>
 
         <h2 className="text-3xl font-bold mb-6 text-blue-400">Login</h2>
         <form onSubmit={handleSubmit} className="w-full max-w-md">
